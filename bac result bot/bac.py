@@ -19,7 +19,7 @@ class MyTestClass(BaseCase):
                 print("pas de note")
                 time.sleep(2)
                 self.go_back()
-                time.sleep(600) #wait de 20 minutes si mes calculs sont bons
+                time.sleep(600) #wait de 10 minutes si mes calculs sont bons
             else:
                 notes_publiees = True
                 print("test té")
